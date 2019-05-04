@@ -110,7 +110,7 @@ void matrix_init_user(void) {
 #ifdef RGB_MATRIX_ENABLE
   rgb_matrix_enable();
   rgb_matrix_sethsv(191, 255, 255);
-  rgb_matrix_mode(RGB_MATRIX_SOLID_MULTISPLASH);
+  rgb_matrix_mode(RGB_MATRIX_SOLID_REACTIVE);
 #endif
 
 //SSD1306 OLED init, make sure to add #define SSD1306OLED in config.h
