@@ -40,7 +40,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------+------|      |------+------+------+------+------+------+------|
  * |      | Shift|   Z  |   X  |   C  |   V  |   B  |      |   N  |   M  |   ,  |   .  |   /  |   -  |   =  |
  * |------+------+------+------+------+------+------|      |------+------+------+------+------+------+------|
- * |Adjust| Esc  | Alt  | GUI  | Shift|Lower |Space |      |Space |Raise | Shift| Left | Down |  Up  | Right|
+ * |Adjust| Esc  | Alt  | GUI  | Shift|Lower |Space |      |Enter |Raise | Shift| Left | Down |  Up  | Right|
  * `------------------------------------------------'      `------------------------------------------------'
  */
   [_QWERTY] = LAYOUT_kc(
@@ -53,7 +53,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----+----|    |----+----+----+----+----+----+----|
          ,LSFT, Z  , X  , C  , V  , B  ,      N  , M  ,COMM,DOT ,SLSH,MINS,EQL ,
   //|----+----+----+----+----+----+----|    |----+----+----+----+----+----+----|
-     AJST,ESC ,LALT,LGUI,LSFT,LOWR,SPC ,     SPC ,RASE,RSFT,LEFT,DOWN, UP ,RGHT
+     AJST,ESC ,LALT,LGUI,LSFT,LOWR,SPC ,     ENT ,RASE,RSFT,LEFT,DOWN, UP ,RGHT
   //`----+----+----+----+----+----+----'    `----+----+----+----+----+----+----'
   ),
 
