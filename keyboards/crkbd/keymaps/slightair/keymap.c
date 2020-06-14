@@ -81,7 +81,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_ADJUST] = LAYOUT_kc( \
   //,-----------------------------------------.                ,-----------------------------------------.
-        RST, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,                  XXXXX,    F1,    F2,    F3,    F4,    F5,\
+        RST, XXXXX, XXXXX, XXXXX, XXXXX,  SLCK,                   PSCR,    F1,    F2,    F3,    F4,    F5,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
        LTOG, XXXXX, XXXXX, XXXXX, XXXXX, XXXXX,                  XXXXX,    F6,    F7,    F8,    F9,   F10,\
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
